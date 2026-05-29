@@ -1,10 +1,7 @@
 # Weather Station Simulation System
 
-A simple Java console app that simulates a set of weather sensors (metrology)
-Each sensor measures something different temperature, pressure,
-wind speed, or humidity and reports its reading to a central station.
-
-
+Our program simulates a weather station called Addis Ababa Central. The Sensor class is the base, it defines what every sensor must do.
+From there we created four sensors Thermometer, Barometer, Anemometer, and Hygrometer — each one extends Sensor and provides its own reading. The WeatherStation class holds all of them in a list and runs two reading cycles, one normal and one verbose. Main.java is where everything is started, it creates the station, adds the sensors, and runs the cycles.
 
 ## How to Run
 
