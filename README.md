@@ -65,16 +65,22 @@ a `List<Sensor>` stores all four sensor types. The loop on line 16 calls
 
 ## Sample Output
  Station: Addis Ababa Central
+
 [T-01] Thermometer at Roof: 23.4 °C
+
 [B-01] Barometer at Ground Floor: 1012.7 hPa
+
 [A-01] Anemometer at Tower: 34.2 km/h
   Category: Moderate wind
+
 [H-01] Hygrometer at Garden: 67.8 %RH
   Comfort: Humid
 
- Station: Addis Ababa Central [verbose] 
+Station: Addis Ababa Central [verbose] 
+
 [T-01] Thermometer at Roof: 19.1 °C
   Unit: °C | ID: T-01
+
 [B-01] Barometer at Ground Floor: 998.3 hPa
   Unit: hPa | ID: B-01
 [A-01] Anemometer at Tower: 12.6 km/h
