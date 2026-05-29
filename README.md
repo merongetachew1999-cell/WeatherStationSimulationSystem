@@ -48,11 +48,11 @@ constructor is on line 7 of each subclass.
 
 ### Polymorphism (V4.0)
 
-Method overriding — `measure()` is declared abstract in `Sensor.java`
+Method overriding `measure()` is declared abstract in `Sensor.java`
 line 28 and overridden differently in each subclass. `report()` is also
 overridden in `Anemometer.java` and `Hygrometer.java` to add extra output.
 
-Method overloading — `report()` in `Sensor.java` lines 30–35 and
+Method overloading `report()` in `Sensor.java` lines 30–35 and
 `runCycle()` in `WeatherStation.java` lines 22–28 each have two versions
 with different parameters.
 
@@ -83,11 +83,14 @@ Station: Addis Ababa Central [verbose]
 
 [B-01] Barometer at Ground Floor: 998.3 hPa
   Unit: hPa | ID: B-01
+
 [A-01] Anemometer at Tower: 12.6 km/h
   Category: Light breeze
   Unit: km/h | ID: A-01
+
 [H-01] Hygrometer at Garden: 85.3 %RH
   Comfort: Humid
+
 High humidity alert!
   Unit: %RH | ID: H-01
 
